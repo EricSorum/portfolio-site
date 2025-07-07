@@ -6,13 +6,9 @@
   gap: 20px;
   max-width: 800px;
   padding: 20px;
-  outline: 1px solid rgba(50, 50, 50, 10%);
+  outline: 1px solid var(--outline-grey);
   border-radius: 5px;
-  box-shadow: 0px 0px 0px 1px rgba(30, 31, 37, 0.04),
-    0px 8px 4px 0px rgba(30, 31, 37, 0.08),
-    0px 26px 33px -13px rgba(30, 31, 37, 0.10),
-    0px 6px 54px 0px rgba(30, 31, 37, 0.06),
-    0px 10px 8px -9px rgba(30, 31, 37, 0.15);;
+  box-shadow: var(--complex-shadow);
 }
 
 @media (max-width: 600px) {
@@ -69,17 +65,17 @@
   width: 240px;
   height: 240px;
   object-fit: cover;
-  outline: 1px solid rgba(30, 30, 30, 30%);
+  outline: 1px solid var(--outline-grey);
   border-radius: 5px;
 
 }
 
 .projectImg:hover {
-  outline: 1px solid rgba(61, 123, 255);
+  outline: 1px solid var(--saturated-sky);
 }
 
 a {
-  color: rgb(180, 180, 180);
+  color: var(--faded-grey);
   font-style: normal;
   position: relative;
   bottom: 0px;

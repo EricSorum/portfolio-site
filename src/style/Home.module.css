@@ -64,8 +64,7 @@
 }
 
 .subtitle {
-  color: rgb(0, 10, 180);
-  text-shadow: rgba(0, 10, 180, 0.5) 2px 2px;
+  color: var(--deep-steel);
 }
 
 .resumeButtons {

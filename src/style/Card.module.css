@@ -50,7 +50,7 @@
 }
 
 a {
-  color: rgb(180, 180, 180);
+  color: var(--faded-grey);
   font-style: normal;
   position: relative;
   bottom: 0px;
