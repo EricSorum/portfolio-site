@@ -13,11 +13,13 @@ function Home() {
           Full Stack Web Developer with 2 years of experience.
         </p>
         <ul>
-          <li>Languages: JavaScript/TypeScript, PHP, SQL, HTML, CSS</li>
-          <li>Libraries & Tools: React.js, Tailwind CSS, Bootstrap, Drupal 8–10, Laravel, Node.js, Webpack</li>
-          <li>Dev Tools: Git, GitHub, Valet, Homebrew, Composer, npm/pnpm, </li>
-          <li>Practices: RESTful APIs, Agile development, Accessibility (WCAG 2.2), Cross-functional collaboration</li>
-          <li>Other: Cursor AI Agent, LLM-assisted development, Google Tag Manager, Google Analytics 4</li>
+          <li><span className={style.skillCategory}>Languages:</span> JavaScript/TypeScript, PHP, SQL, HTML, CSS</li>
+          <li><span className={style.skillCategory}>Frameworks:</span> React.js, Next.js, Symfony</li>
+          <li><span className={style.skillCategory}>Style libraries:</span> Bootstrap, Tailwind, Material UI </li>          
+          <li><span className={style.skillCategory}>Content Management Systems (CMS):</span> Drupal 8-10, WordPress</li>
+          <li><span className={style.skillCategory}>Dev Tools:</span> Git, GitHub, Vite, Webpack, npm/pnpm, Valet, Homebrew, Composer, Jira</li>
+          <li><span className={style.skillCategory}>Practices:</span> CI/CD, Agile development, Accessibility (WCAG 2.2)</li>
+          <li><span className={style.skillCategory}>Other:</span> Cursor AI Agent, LLM-assisted development, Google Tag Manager, Google Analytics 4</li>
         </ul>
         <div className={style.resumeButtons}>
           <a href={resume}>

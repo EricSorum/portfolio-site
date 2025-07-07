@@ -72,3 +72,7 @@
   border: solid var(--deep-steel) 2px;
   padding: 10px;
 }
+
+.skillCategory {
+  color: var(--saturated-sky);
+}
