@@ -60,11 +60,11 @@
 }
 
 .headshot:hover {
-  filter: brightness(100%);
+  /* filter: brightness(100%);
   position: relative;
   bottom: 15px;
   left: 15px;
-  transform: scale(1.02);
+  transform: scale(1.02); */
 }
 
 .headshotBox {

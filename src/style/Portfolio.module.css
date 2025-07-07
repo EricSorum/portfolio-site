@@ -122,6 +122,6 @@ a {
 a:hover,
 a:focus {
   color: rgb(61, 123, 255);
-  bottom: 1px;
-  text-shadow: rgb(61, 123, 255) 0px 0px 1px;
+  /* bottom: 1px; */
+  /* text-shadow: rgb(61, 123, 255) 0px 0px 1px; */
 }
