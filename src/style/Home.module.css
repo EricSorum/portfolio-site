@@ -1,0 +1,80 @@
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  animation: 1s ease-out 0s 1 fadeIn;
+}
+
+@media (max-width: 600px) {
+  .homeDiv {
+    max-width: 500px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.homeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* 
+@media (max-width: 600px) {
+  .homeBlock {
+  }
+} */
+
+.blueText {
+  color: rgb(61, 123, 255);
+  font-size: 1.2rem;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 20px;
+  max-width: 80vw;
+}
+
+.homeHeader {
+  color: rgb(61, 123, 255);
+  font-size: 3.5rem;
+}
+
+.subHeader {
+  color: rgb(61, 123, 255);
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .homeHeader{
+    font-size: 2rem;
+  }
+}
+
+.subtitle {
+  color: rgb(0, 10, 180);
+  text-shadow: rgba(0, 10, 180, 0.5) 2px 2px;
+}
+
+.resumeButtons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.resumeButton {
+  border: solid rgb(61, 123, 255) 2px;
+  padding: 10px;
+}
