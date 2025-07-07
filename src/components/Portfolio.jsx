@@ -9,6 +9,8 @@ import pantry from './images/pantry.jpg';
 import tea from './images/tea.jpg';
 import site from './images/site.svg';
 import github from './images/github.svg';
+import Project from './Project';
+import { projects } from '../data/projects';
 
 function Portfolio() {
   return (
@@ -21,6 +23,18 @@ function Portfolio() {
           <div className={style.line} />
         </div>
         <div className={style.projectList}>
+        {projects.map((project) => (
+          <Project  key={`key-${project.name}`} {...project}/>
+
+
+
+
+          
+        )
+        )}
+
+
+{/*           
           <div className={style.card}>
             <a href="https://ejsorum.github.io/recipe-site/">
               <img src={veggies} alt="Veggies First" className={style.projectImg} />
@@ -276,7 +290,13 @@ function Portfolio() {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+
+
+
+
         </div>
       </div>
     </div>

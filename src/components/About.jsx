@@ -20,15 +20,15 @@ function About() {
           </div>
           <div className={style.textBlock}>
             <p>
-            My life has been defined by self-starting and curiosity. It is no wonder the 
-            past year of teaching myself to code has been perhaps the most fulfilling 
-            period in my life.
+            My life has been defined by self-starting and curiosity. It is no wonder that teach
+            myself to code and working as a developer has been on of the most fulfilling 
+            periods in my life.
             </p>
             <p>
             I have been crazy about computers ever since I first played around on the DOS 
             prompt of my dad’s i386.  I went to computer camp in middle school to learn 
-            C++ and dreamt of being a real programmer.  The past 15 years have seen me 
-            pursue other passions, representing a diverse set of experiences requiring 
+            C++ and dreamt of being a real programmer.  The past 17 years have seen me 
+            pursue many passions, representing a diverse set of experiences requiring 
             excellent communication and creativity:
             </p>
             <ul>
