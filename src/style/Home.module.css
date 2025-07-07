@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  animation: 1s ease-out 0s 1 fadeIn;
+  animation: var(--transition-time) ease-out 0s 1 fadeIn;
 }
 
 @media (max-width: 600px) {
@@ -27,11 +27,6 @@
   flex-direction: column;
   align-items: flex-start;
 }
-/* 
-@media (max-width: 600px) {
-  .homeBlock {
-  }
-} */
 
 .blueText {
   color: var(--deep-steel);
@@ -54,7 +49,7 @@
 .subHeader {
   color: var(--deep-steel);
   font-size: 2rem;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 @media (max-width: 600px) {

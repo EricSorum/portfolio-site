@@ -7,7 +7,7 @@ nav {
   top: 0px;
   right: 40px;
   z-index: 3;
-  animation: 1s ease-out 0s 1 slideInTop;
+  animation: var(--transition-time) ease-out 0s 1 slideInTop;
 }
 
 @media (max-width: 600px) {
@@ -56,5 +56,5 @@ a {
   filter: invert(80%);
   transition: filter 1st ease-out;
   padding-bottom: 20px;
-  transition: all 1s ease-out;
+  transition: all var(--transition-time) ease-out;
 }

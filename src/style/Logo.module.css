@@ -18,8 +18,8 @@
   position: fixed;
   top: 20px;
   left: 20px;
-  animation: 1s ease-out 0s 1 fadeIn;
-  transition: all 1s ease-out;
+  animation: var(--transition-time) ease-out 0s 1 fadeIn;
+  transition: all var(--transition-time) ease-out;
   z-index: 3;
 }
 

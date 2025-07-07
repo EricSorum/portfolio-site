@@ -10,7 +10,7 @@
   filter: invert(50%);
   transition: filter 1st ease-out;
   padding-bottom: 20px;
-  transition: all 1s ease-out;
+  transition: all var(--transition-time) ease-out;
 }
 
 .linkIcon:hover,

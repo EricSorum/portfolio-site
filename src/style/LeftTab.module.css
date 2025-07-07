@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: flex-end;
   z-index: 2;
-  animation: 1s ease-out 0s 1 slideInBottom;
+  animation: var(--transition-time) ease-out 0s 1 slideInBottom;
 }
 
 @media (max-width: 600px) {
@@ -33,9 +33,9 @@
 .linkIcon {
   width: 25px;
   filter: invert(50%);
-  transition: filter 1st ease-out;
+  transition: filter var(--transition-time) ease-out;
   padding-bottom: 20px;
-  transition: all 1s ease-out;
+  transition: all var(--transition-time) ease-out;
 }
 
 @media (max-width: 600px) {
