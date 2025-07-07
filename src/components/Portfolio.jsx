@@ -1,12 +1,5 @@
 import React from 'react';
 import style from '../style/Portfolio.module.css';
-// import veggies from './images/veggies.jpg';
-// import beer from './images/beer.jpg';
-// import architecture from './images/architecture.jpg';
-// import max from './images/max.jpg';
-// import gallery from './images/gallery.jpg';
-// import pantry from './images/pantry.jpg';
-// import tea from './images/tea.jpg';
 import Project from './Project';
 import { projects } from '../data/projects';
 
@@ -28,7 +21,6 @@ function Portfolio() {
 
   return (
     <div className={style.portfolioDiv}>
-      {/* <div className={style.portfolioBlock}> */}
         <div className={style.headerDiv}>
           <h2 id="portfolio" className={style.portfolioHeader}>
             Portfolio
@@ -36,14 +28,12 @@ function Portfolio() {
           <div className={style.line} />
         </div>
         <div className={style.projectList}>
-        {projects.map((project) => (
-          <Project  key={`key-${project.name}`} {...project} img={imageMap[project.name]}/>
-         )
-        )}
-
+          {projects.map((project) => (
+            <Project  key={`key-${project.name}`} {...project} img={imageMap[project.name]}/>
+          )
+          )}
         </div>
-      {/* </div> */}
-    </div>
+   </div>
   );
 }
 

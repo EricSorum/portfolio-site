@@ -5,7 +5,6 @@ import linkArrow from './images/site.svg'
 export default function Project(props) {
   const { name, img, github, link, description } = props;
   const altText = `Link to ${name} project`;
-  // const imgSrc = `./images/${img}`;
   return (    
     <div className={style.card}>
       <a href={github}>
