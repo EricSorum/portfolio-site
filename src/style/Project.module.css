@@ -30,6 +30,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .linkGroup {
@@ -65,12 +66,17 @@
 }
 
 .projectImg {
-  width: 220px;
-  filter: brightness(40%);
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  /* filter: brightness(80%); */
+  outline: 1px solid rgba(30, 30, 30, 30%);
+  border-radius: 5px;
+
 }
 
 .projectImg:hover {
-  filter: brightness(100%);
+  outline: 1px solid rgba(61, 123, 255);
 }
 
 a {
