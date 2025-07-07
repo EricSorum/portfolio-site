@@ -20,7 +20,7 @@
 
 .projectTitle {
   font-size: 1.5rem;
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
 }
 
 .linkIcon {
@@ -59,7 +59,7 @@ a {
 
 a:hover,
 a:focus {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   /* bottom: 1px; */
-  /* text-shadow: rgb(61, 123, 255) 0px 0px 1px; */
+  /* text-shadow: var(--deep-steel) 0px 0px 1px; */
 }

@@ -22,14 +22,14 @@
 }
 
 .aboutHeader {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   font-size: 3rem;
 }
 
 .line {
   height: 2px;
   width: 500px;
-  background-color: rgb(61, 123, 255);
+  background-color: var(--deep-steel);
 }
 @media (max-width: 600px) {
   .line {

@@ -20,8 +20,8 @@
 .line {
   height: 10vh;
   width: 1px;
-  background-color: rgb(61, 123, 255);
-  box-shadow: rgb(61, 123, 255) 0px 0px 3px;
+  background-color: var(--deep-steel);
+  box-shadow: var(--deep-steel) 0px 0px 3px;
 }
 
 @media (max-width: 600px) {

@@ -34,7 +34,7 @@
 } */
 
 .blueText {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   font-size: 1.2rem;
 }
 
@@ -47,12 +47,12 @@
 }
 
 .homeHeader {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   font-size: 3.5rem;
 }
 
 .subHeader {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   font-size: 2rem;
   opacity: 0.8;
 }
@@ -75,6 +75,6 @@
 }
 
 .resumeButton {
-  border: solid rgb(61, 123, 255) 2px;
+  border: solid var(--deep-steel) 2px;
   padding: 10px;
 }

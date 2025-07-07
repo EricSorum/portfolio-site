@@ -14,7 +14,7 @@
 }
 
 .contactHeader {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   font-size: 3rem;
 }
 
@@ -30,14 +30,14 @@
 }
 
 .contactButton {
-  border: solid rgb(61, 123, 255) 2px;
+  border: solid var(--deep-steel) 2px;
   padding: 10px;
 }
 
 .line {
   height: 2px;
   width: 500px;
-  background-color: rgb(61, 123, 255);
+  background-color: var(--deep-steel);
 }
 
 @media (max-width: 600px) {

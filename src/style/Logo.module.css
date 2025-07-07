@@ -7,7 +7,7 @@
 }
 
 .logoText {
-  color: rgb(61, 123, 255);
+  color: var(--deep-steel);
   font-size: 1.5rem;
 }
 
