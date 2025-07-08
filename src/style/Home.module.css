@@ -52,6 +52,10 @@
   opacity: 0.9;
 }
 
+.subHeader span {
+  opacity: 0.75;
+  font-size: 1.5rem;
+}
 @media (max-width: 600px) {
   .homeHeader{
     font-size: 2rem;
