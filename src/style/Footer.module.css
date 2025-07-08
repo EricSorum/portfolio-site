@@ -1,6 +1,6 @@
 .footerDiv {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 10px;
   padding-bottom: 30px;
 }
@@ -15,5 +15,5 @@
 
 .linkIcon:hover,
 .linkIcon:focus {
-  filter: invert(100%);
+  filter: invert(10%);
 }
