@@ -20,10 +20,10 @@ function Contact() {
           <a href="mailto:ejsorum@gmail.com">
             <div className={style.contactButton}>Email: ejsorum@gmail.com</div>
           </a>
-          <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">
+          <a href="https://www.linkedin.com/in/eric-sorum-894b55183/" target="_blank">
             <div className={style.contactButton}>Find me on LinkedIn</div>
           </a>
-          <a href="https://github.com/EricSorum">
+          <a href="https://github.com/EricSorum" target="_blank">
             <div className={style.contactButton}>View my GitHub profile</div>
           </a>
         </div>

@@ -8,21 +8,21 @@ export default function Project(props) {
   const descriptionWithLineBreaks = description.split("/n", )
   return (    
     <div className={style.card}>
-      <a href={github}>
+      <a href={link} target="_blank">
         <img src={img} alt={altText} className={style.projectImg} />
       </a>
       <div>
         <div className={style.projectHeader}>
-          <a href={github}>
+          <a href={github} target="_blank">
             <div className={style.projectTitle}>{name}</div>
           </a>
           <div className={style.linkGroup}>
-            <a href={link} className={style.linkSet}>
+            <a href={link} className={style.linkSet} target="_blank">
               Go to site
               {' '}
               <img src={linkArrow} alt="Link arrow" className={style.linkIcon} />
             </a>
-            <a href={link} className={style.linkSet}>
+            <a href={link} className={style.linkSet} target="_blank">
               GitHub repo
               {' '}
               <img src={githubLogo} alt="Github icon" className={style.linkIcon} />
