@@ -17,7 +17,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   gap: 20px;
-  width: 80vw;
+  /* width: 80vw; */
   padding-bottom: 30px;
 }
 
@@ -31,16 +31,18 @@
   width: 500px;
   background-color: var(--deep-steel);
 }
+
 @media (max-width: 600px) {
   .line {
     display: none;
   }
 }
+
 .imgAndText {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; */
 }
 
 @media (max-width: 600px) {
@@ -51,8 +53,8 @@
 
 .headshot {
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   filter: brightness(80%);
   position: relative;
   left: 10px;
@@ -67,18 +69,23 @@
   transform: scale(1.02); */
 }
 
-.headshotBox {
+/* .headshotBox {
   width: 300px;
   height: 300px;
   outline: solid white 3px;
   z-index: -1;
   position: absolute;
-}
+} */
 
 .textBlock {
-  max-width: 500px;
-}
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* max-width: 500px; */
 
+}
+.textBlock img {
+  margin: 0 30px 0 0;
+}
 .blueText {
   color: blue;
 }
