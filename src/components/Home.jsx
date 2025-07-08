@@ -10,7 +10,7 @@ function Home() {
           <h1 className={style.homeHeader}>Eric Sorum</h1>
         </div>
         <p className={style.subHeader}>
-          Full Stack Web Developer with 2 years of experience.
+          <span>Freelance</span> Full Stack Web Developer
         </p>
         <ul>
           <li><span className={style.skillCategory}>Languages:</span> JavaScript/TypeScript, PHP, SQL, HTML, CSS</li>
@@ -18,7 +18,7 @@ function Home() {
           <li><span className={style.skillCategory}>Style libraries:</span> Bootstrap, Tailwind, Material UI </li>          
           <li><span className={style.skillCategory}>Content Management Systems (CMS):</span> Drupal 8-10, WordPress</li>
           <li><span className={style.skillCategory}>Dev Tools:</span> Git, GitHub, Vite, Webpack, npm/pnpm, Valet, Homebrew, Composer, Jira</li>
-          <li><span className={style.skillCategory}>Practices:</span> CI/CD, Agile development, Accessibility (WCAG 2.2)</li>
+          <li><span className={style.skillCategory}>Practices:</span> CI/CD, Agile/Scrum development, Accessibility (WCAG 2.2)</li>
           <li><span className={style.skillCategory}>Other:</span> Cursor AI Agent, LLM-assisted development, Google Tag Manager, Google Analytics 4</li>
         </ul>
         <div className={style.resumeButtons}>
