@@ -2,7 +2,7 @@
   --saturated-sky: rgb(110, 193, 228);
   --deep-steel: rgb(47, 110, 158);
   --outline-grey: rgba(30, 30, 30, 30%);
-  --faded-grey: rgba(180, 180, 180, 90%);
+  --faded-grey: rgba(95, 95, 95, 0.9);
   --complex-shadow: 0px 0px 0px 1px rgba(30, 31, 37, 0.04),
     0px 8px 4px 0px rgba(30, 31, 37, 0.08),
     0px 26px 33px -13px rgba(30, 31, 37, 0.10),
