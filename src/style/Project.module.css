@@ -46,13 +46,13 @@
 
 .linkIcon {
   width: 20px;
-  filter: invert(50%);
+  filter: invert(40%);
   transition: filter var(--transition-time) ease-out;
 }
 
 .linkIcon:hover,
 .linkIcon:focus {
-  filter: invert(100%);
+  filter: invert(10%);
 }
 
 .linkSet {
