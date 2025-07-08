@@ -5,6 +5,7 @@ import linkArrow from './images/site.svg'
 export default function Project(props) {
   const { name, img, github, link, description } = props;
   const altText = `Link to ${name} project`;
+  const descriptionWithLineBreaks = description.split("/n", )
   return (    
     <div className={style.card}>
       <a href={github}>
@@ -29,8 +30,11 @@ export default function Project(props) {
           </div>
         </div>
         <div className={style.textBlock}>
-          <p className={style.description}>
-            {description}</p>
+            {description.split('\n').map((line, index) => (
+                <p className={style.description} key={index}>
+                {line}
+                </p>
+            ))}          
         </div>
       </div>
     </div>
