@@ -5,32 +5,15 @@ import style from '../style/About.module.css';
 function About() {
 
   const expandText = (e) => {
-    // console.log(e)
-
-    // console.log(e.target)
-    const thisDiv = e.target.closest("div");
-    // console.log(thisDiv);
+    const thisDiv = e.target.closest("#expandableText");
     const thisAria = thisDiv.getAttribute("aria-expanded")
-        console.log(thisAria)
-
     thisDiv.setAttribute("aria-expanded",
       thisAria === "true" ? "false" : "true"
     )
-        console.log(thisDiv.getAttribute("aria-expanded"))
-
-    // e.classList.toggle("height40");
   }
-
-  // const textBlockClasses = (this) => {
-  //   return [
-  //     style.textBlock,
-  //     this.getAttribute("")
-  //   ]
-  // }
 
   return (
     <div className={style.aboutDiv}>
-      {/* <div className={style.aboutBlock}> */}
         <div className={style.headerDiv}>
           <h2 id="about" className={style.aboutHeader}>
             About Me
@@ -40,9 +23,8 @@ function About() {
         <div className={style.backgroundBox} />
         <div className={style.imgAndText}>
           <div>
-            {/* <div className={style.headshotBox} /> */}
           </div>
-          <div className={[style.textBlock, style.height40].join(' ')} onClick={expandText} aria-expanded="false">
+          <div id="expandableText" className={[style.textBlock, style.height40].join(' ')} onClick={expandText} aria-expanded="false">
 
             <img src={headshot} alt="Eric Sorum" className={style.headshot} align="left"/>
 
@@ -75,15 +57,15 @@ function About() {
             <p>I love the fact that I learn something new every day as a developer.  I pride myself on strong web fundamentals in HTML, CSS, and JavaScript, while exploring the latest technologies such as Next.js, Cursor AI, and Rust.</p>
             <p>Outside of software, I enjoy performing in local theaters and singing J.S. Bach.  Oh, and if you get crushed by someone on the StarCraft 2 ladder, that may have been me.
             </p>
-            <div className={style.expandDiv}>
-              {/* <button className={style.expandBtn}>v</button> */}
-              <span>Click to expand</span>
-               <hr />
-
+            <div className={style.expandGradient}>
             </div>
+            <div className={style.expandDiv}>
+              <span>Click to expand</span>
+            </div>
+            <hr />
+
           </div>
         </div>
-      {/* </div> */}
     </div>
   );
 }
