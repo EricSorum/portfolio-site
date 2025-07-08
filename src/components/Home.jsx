@@ -10,7 +10,7 @@ function Home() {
           <h1 className={style.homeHeader}>Eric Sorum</h1>
         </div>
         <p className={style.subHeader}>
-          <span>Freelance</span> Full Stack Web Developer
+          <span>Freelance</span> Full Stack Developer
         </p>
         <ul>
           <li><span className={style.skillCategory}>Languages:</span> JavaScript/TypeScript, PHP, SQL, HTML, CSS</li>
