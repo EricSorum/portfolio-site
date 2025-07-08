@@ -20,9 +20,7 @@ function About() {
           </div>
           <div className={style.textBlock}>
             <p>
-            My life has been defined by self-starting and curiosity. It is no wonder that teach
-            myself to code and working as a developer has been on of the most fulfilling 
-            periods in my life.
+            My life has been defined by self-starting and curiosity. It is no wonder that teaching myself to code and working as a developer has been on of the most fulfilling periods in my life.
             </p>
             <p>
             I have been crazy about computers ever since I first played around on the DOS 
@@ -44,16 +42,11 @@ function About() {
             Computers have once again emerged as my true passion, and returning to code 
             has felt like coming home.
             </p>
-            <p>Here are a few of the technologies I currently use:</p>
-            <ul className={style.skillList}>
-              <li>JavaScript/TypeScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>PHP</li>
-              <li>React.js</li>
-              <li>Git/GitHub</li>
-              <li>Drupal</li>
-            </ul>
+            As a freelance Full Stack Developer, I am available for tasks large and small, whether it's styling your WordPress site or contributing to enterprise software.  My demonstrated drive to quickly pick up new technologies and thrive in a fast-paced environment make me a valuable addition to any project.  With over two years of experience as a developer, I built scores of web pages on the frontend while untangling the toughest backend bugs.  In all, I resolved over 1,000 Jira tickets, including large projects and urgent issues amid frequently changing priorities.
+            <p>
+            <p>I love the fact that I learn something new every day as a developer.  I pride myself on strong web fundamentals in HTML, CSS, and JavaScript, while exploring the latest technologies such as Next.js, Cursor AI, and Rust.</p>
+            <p>Outside of software, I enjoy performing in local theaters and singing J.S. Bach.  Oh, and if you get smashed by someone on the StarCraft 2 ladder, that may have been me.</p>
+            </p>
           </div>
         </div>
       </div>
