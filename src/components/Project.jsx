@@ -22,7 +22,7 @@ export default function Project(props) {
               {' '}
               <img src={linkArrow} alt="Link arrow" className={style.linkIcon} />
             </a>
-            <a href={link} className={style.linkSet} target="_blank">
+            <a href={github} className={style.linkSet} target="_blank">
               GitHub repo
               {' '}
               <img src={githubLogo} alt="Github icon" className={style.linkIcon} />
