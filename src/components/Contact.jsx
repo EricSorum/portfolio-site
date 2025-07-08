@@ -23,7 +23,7 @@ function Contact() {
           <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">
             <div className={style.contactButton}>Find me on LinkedIn</div>
           </a>
-          <a href="https://github.com/EJSorum">
+          <a href="https://github.com/EricSorum">
             <div className={style.contactButton}>View my GitHub profile</div>
           </a>
         </div>

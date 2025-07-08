@@ -10,7 +10,7 @@ function LeftTab() {
       <a href="mailto:ejsorum@gmail.com">
         <img src={email} alt="Email" className={style.linkIcon} />
       </a>
-      <a href="https://github.com/EJSorum">
+      <a href="https://github.com/EricSorum">
         <img src={github} alt="GitHub" className={style.linkIcon} />
       </a>
       <a href="https://www.linkedin.com/in/eric-sorum-894b55183/">

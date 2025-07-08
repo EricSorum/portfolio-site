@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div className={style.footerDiv}>
       <div>
-        <a href="https://github.com/EJSorum/eric-sorum">Designed and built by Eric Sorum</a>
+        <a href="https://github.com/EricSorum">Designed and built by Eric Sorum</a>
       </div>
-      <a href="https://github.com/EJSorum/eric-sorum"><img src={github} alt="Github icon" className={style.linkIcon}/></a>
+      <a href="https://github.com/EricSorum"><img src={github} alt="Github icon" className={style.linkIcon}/></a>
     </div>
   )
 }
