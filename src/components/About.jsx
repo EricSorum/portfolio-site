@@ -3,6 +3,31 @@ import headshot from './images/headshot.jpg';
 import style from '../style/About.module.css';
 
 function About() {
+
+  const expandText = (e) => {
+    // console.log(e)
+
+    // console.log(e.target)
+    const thisDiv = e.target.closest("div");
+    // console.log(thisDiv);
+    const thisAria = thisDiv.getAttribute("aria-expanded")
+        console.log(thisAria)
+
+    thisDiv.setAttribute("aria-expanded",
+      thisAria === "true" ? "false" : "true"
+    )
+        console.log(thisDiv.getAttribute("aria-expanded"))
+
+    // e.classList.toggle("height40");
+  }
+
+  // const textBlockClasses = (this) => {
+  //   return [
+  //     style.textBlock,
+  //     this.getAttribute("")
+  //   ]
+  // }
+
   return (
     <div className={style.aboutDiv}>
       {/* <div className={style.aboutBlock}> */}
@@ -17,7 +42,8 @@ function About() {
           <div>
             {/* <div className={style.headshotBox} /> */}
           </div>
-          <div className={style.textBlock}>
+          <div className={[style.textBlock, style.height40].join(' ')} onClick={expandText} aria-expanded="false">
+
             <img src={headshot} alt="Eric Sorum" className={style.headshot} align="left"/>
 
             <p>
@@ -43,11 +69,18 @@ function About() {
             Computers have once again emerged as my true passion, and returning to code 
             has felt like coming home.
             </p>
-            As a freelance Full Stack Developer, I am available for tasks large and small, whether it's styling your WordPress site or contributing to enterprise software.  My demonstrated drive to quickly pick up new technologies and thrive in a fast-paced environment make me a valuable addition to any project.  With over two years of experience as a developer, I built scores of web pages on the frontend while untangling the toughest backend bugs.  In all, I resolved over 1,000 Jira tickets, including large projects and urgent issues amid frequently changing priorities.
             <p>
-            <p>I love the fact that I learn something new every day as a developer.  I pride myself on strong web fundamentals in HTML, CSS, and JavaScript, while exploring the latest technologies such as Next.js, Cursor AI, and Rust.</p>
-            <p>Outside of software, I enjoy performing in local theaters and singing J.S. Bach.  Oh, and if you get crushed by someone on the StarCraft 2 ladder, that may have been me.</p>
+            As a freelance Full Stack Developer, I am available for tasks large and small, whether it's styling your WordPress site or contributing to enterprise software.  My demonstrated drive to quickly pick up new technologies and thrive in a fast-paced environment make me a valuable addition to any project.  With over two years of experience as a developer, I built scores of web pages on the frontend while untangling the toughest backend bugs.  In all, I resolved over 1,000 Jira tickets, including large projects and urgent issues amid frequently changing priorities.
             </p>
+            <p>I love the fact that I learn something new every day as a developer.  I pride myself on strong web fundamentals in HTML, CSS, and JavaScript, while exploring the latest technologies such as Next.js, Cursor AI, and Rust.</p>
+            <p>Outside of software, I enjoy performing in local theaters and singing J.S. Bach.  Oh, and if you get crushed by someone on the StarCraft 2 ladder, that may have been me.
+            </p>
+            <div className={style.expandDiv}>
+              {/* <button className={style.expandBtn}>v</button> */}
+              <span>Click to expand</span>
+               <hr />
+
+            </div>
           </div>
         </div>
       {/* </div> */}
