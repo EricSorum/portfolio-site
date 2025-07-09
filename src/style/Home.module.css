@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 25%;
   height: 100vh;
   animation: var(--transition-time) ease-out 0s 1 fadeIn;
 }
