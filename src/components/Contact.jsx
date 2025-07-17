@@ -18,13 +18,13 @@ function Contact() {
         <br />
         <div className={style.contactButtonDiv}>
           <a href="mailto:ejsorum@gmail.com">
-            <div className={style.contactButton}>Email: ejsorum@gmail.com</div>
+            <button className={style.contactButton}>Email: ejsorum@gmail.com</button>
           </a>
           <a href="https://www.linkedin.com/in/eric-sorum-894b55183/" target="_blank">
-            <div className={style.contactButton}>Find me on LinkedIn</div>
+            <button className={style.contactButton}>Find me on LinkedIn</button>
           </a>
           <a href="https://github.com/EricSorum" target="_blank">
-            <div className={style.contactButton}>View my GitHub profile</div>
+            <button className={style.contactButton}>View my GitHub profile</button>
           </a>
         </div>
       </div>

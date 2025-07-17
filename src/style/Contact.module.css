@@ -29,10 +29,6 @@
   gap: 20px;
 }
 
-.contactButton {
-  border: solid var(--deep-steel) 2px;
-  padding: 10px;
-}
 
 .line {
   height: 2px;

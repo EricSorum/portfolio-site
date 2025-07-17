@@ -8,3 +8,23 @@ li {
   line-height: 2rem;
   list-style-type: circle;
 }
+
+button {
+  font-size: 1.2rem;
+  border: solid var(--deep-steel) 2px;
+  padding: 10px;
+  box-shadow: 0 2px 4px solid rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  border-radius: var(--border-radius);
+  background-color: var(--bright-background);
+}
+
+button:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+  /* border: solid var(--saturated-sky) 2px; */
+}
+
+button:active {
+  transform: scale(0.98);
+}
