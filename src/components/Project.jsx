@@ -13,7 +13,7 @@ export default function Project(props) {
       </a>
       <div>
         <div className={style.projectHeader}>
-          <a href={github} target="_blank">
+          <a href={link} target="_blank">
             <div className={style.projectTitle}>{name}</div>
           </a>
           <div className={style.linkGroup}>
