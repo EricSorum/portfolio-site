@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--bright-background);
+}
+
+li {
+  line-height: 2rem;
+  list-style-type: circle;
+}
