@@ -16,7 +16,7 @@ function Portfolio() {
     "Korprulu Finance": korpruluImg,
     "Recipe Avalanche": recipeavalancheImg,
     "Space Ronan": spaceronanImg,
-    "Videographer's Profile Site": videographerImg
+    "Videographer's Profile": videographerImg
   }
 
   return (
