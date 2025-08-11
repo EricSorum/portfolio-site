@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      height: 100vh;
+    }
+    .container {
+      /* position: relative; */
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .destination {
+      width: 80px;
+      height: 40px;
+      background-color: blue;
+      /* margin: auto; */
+    }
+    .pixel {
+      width: 5px;
+      height: 5px;
+      background-color: red;
+      /* position: relative; */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="destination">
+    </div>
+    <div class="pixel"></div>
+  </div>
+</body>
+<script>
+  const pixel = document.querySelector(".pixel");
+  const container = document.querySelector(".container");
+  const destination = document.querySelector(".destination");
+
+  let offsetX = window.innerWidth - pixel.offsetLeft - pixel.offsetWidth;
+  let offsetY = window.innerHeight - pixel.offsetTop - pixel.offsetHeight;
+
+  pixel.style.transform = "translate(100, 20px)"
+</script>
+</html>
