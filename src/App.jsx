@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className={style.AppDiv}>
+    <div className={style.AppDiv} id="home">
       <Logo />
       <Nav />
       <LeftTab />
