@@ -4,7 +4,7 @@ import resume from './resume/EJSorumResume2025.pdf';
 
 function Home() {
   return (
-    <div className={style.homeDiv} id="home">
+    <div className={style.homeDiv}>
       <div className={style.homeBlock}>
         <div className={style.headerDive}>
           <h1 className={style.homeHeader}>Eric Sorum</h1>
@@ -21,14 +21,14 @@ function Home() {
           <li><span className={style.skillCategory}>Practices:</span> CI/CD, Agile/Scrum development, Accessibility (WCAG 2.2)</li>
           {/* <li><span className={style.skillCategory}>Other:</span> Cursor AI Agent, LLM-assisted development, Google Tag Manager, Google Analytics 4</li> */}
         </ul>
-        <div className={style.resumeButtons}>
+        {/* <div className={style.resumeButtons}>
           <a href={resume}>
             <button className={style.resumeButton}>View resume</button>
           </a>
           <a href={resume} download>
             <button className={style.resumeButton}>Download resume</button>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
