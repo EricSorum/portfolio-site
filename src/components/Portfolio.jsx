@@ -8,6 +8,7 @@ import korpruluImg from './images/korprulu.png';
 import recipeavalancheImg from './images/recipeavalanche.png';
 import spaceronanImg from './images/spaceronan.png';
 import videographerImg from './images/videographer.png';
+import andorhelper from './images/andorhelper.png';
 
 function Portfolio() {
 
@@ -16,7 +17,8 @@ function Portfolio() {
     "Korprulu Finance": korpruluImg,
     "Recipe Avalanche": recipeavalancheImg,
     "Space Ronan": spaceronanImg,
-    "Videographer's Profile": videographerImg
+    "Videographer's Profile": videographerImg,
+    "Andor Helper": andorhelper,
   }
 
   return (

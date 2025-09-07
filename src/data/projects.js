@@ -14,6 +14,18 @@ export const projects = [
     description: "This site for a videography company demonstrates use of React, TypeScript, Tailwind, and React Router."
   },
   {
+    name: "Andor Helper",
+    github: "https://github.com/EricSorum/andor-helper",
+    link: "https://github.com/EricSorum/andor-helper",
+    description: 'A Chrome extension that helps you choose which show to stream.  It serves as an important reminder to users that rather than watch inferior shows, they could be watching "Andor," the Emmy Award-winning, dramatic spy-thriller from acclaimed writer Tony Gilroy.'
+  },
+  {
+    name: "Space Ronan",
+    github: "https://github.com/EricSorum/space-ronan",
+    link: "https://ericsorum.github.io/space-ronan",
+    description: "This simple top-scrolling shooter game shows the potential for AI to improve productivity. Using the Cursor AI integrated development environment (IDE) alongside the Claude Sonnet large language model (LLM), this project took only about three hours.\nWhile Cursor AI allowed for quick development, several roadblocks required me to debug and hand-code several features, such as the collision mechanic and enemy formations.\nOverall, I am excited by the prospect of delivering applications quicker, while appreciating the need to understand each line of code when working with AI.\nInstructions: As a Space Ronan, you are paid a bounty for every invading alien pod you destroy. Use arrows to move and space to fire. Avoid collisions. The difficulty will increase over time."
+  },    
+  {
     name: "Korprulu Finance",
     github: "https://github.com/EricSorum/korprulu-finance",
     link: "https://ericsorum.github.io/korprulu-finance/",
@@ -25,11 +37,5 @@ export const projects = [
     link: "https://ericsorum.github.io/recipe-avalanche/",
     description: "Looking up recipes doesn't need to take all day.  Most recipe sites require significant loading, ad closing, and scrolling just to view one recipe. Recipe Avalanche reverses the trend by loading up to 16 recipes at a time, all one page, all with one click\nRecipe Avalance is a custom application that uses React.js and the spoonacular.com API to search recipes by ingredients. By pressing one of the ingredient buttons, the user gets a list of recipes using that ingredient.  By extracting only the most essential data from JSON files, Recipe Avalanche provides an image, the ingredients, and instructions for dozens of recipes in an instant.  Features also include a set of buttons to choose how many recipes to list in the search, and a search bar to find recipes for any ingredient.  More features and mobile development are forthcoming."
   },
-  {
-    name: "Space Ronan",
-    github: "https://github.com/EricSorum/space-ronan",
-    link: "https://ericsorum.github.io/space-ronan",
-    description: "This simple top-scrolling shooter game shows the potential for AI to improve productivity. Using the Cursor AI integrated development environment (IDE) alongside the Claude Sonnet large language model (LLM), this project took only about three hours.\nWhile Cursor AI allowed for quick development, several roadblocks required me to debug and hand-code several features, such as the collision mechanic and enemy formations.\nOverall, I am excited by the prospect of delivering applications quicker, while appreciating the need to understand each line of code when working with AI.\nInstructions: As a Space Ronan, you are paid a bounty for every invading alien pod you destroy. Use arrows to move and space to fire. Avoid collisions. The difficulty will increase over time."
-  }
 ]
 
