@@ -11,7 +11,7 @@ export const projects = [
     name: "Videographer's Profile",
     github: "https://github.com/EricSorum/profile-site",
     link: "https://route-profile-site-eedf22cf5fdf.herokuapp.com/",
-    description: "This site for a videography company demonstrates use of React, TypeScript, Tailwind, and React Router."
+    description: "This fully accessible portfolio site was built using semantic HTML, ARIA attributes, and screen reader optimization to meet WCAG 2.1 AA standards, ensuring an inclusive experience for all users. The interface features smooth, responsive UI/UX with custom Tailwind CSS animations and an SEO-friendly structure. The project uses TypeScript, React.s, and React Router for seamless navigation, while the Vite build system and Heroku plaftorm provide fast deployment."
   },
   {
     name: "Andor Helper",
