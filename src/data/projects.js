@@ -20,16 +20,16 @@ export const projects = [
     description: 'A Chrome extension that helps you choose which show to stream.  It serves as an important reminder to users that rather than watch inferior shows, they could be watching "Andor," the Emmy Award-winning, dramatic spy-thriller from acclaimed writer Tony Gilroy.'
   },
   {
-    name: "Space Ronan",
-    github: "https://github.com/EricSorum/space-ronan",
-    link: "https://ericsorum.github.io/space-ronan",
-    description: "This simple top-scrolling shooter game shows the potential for AI to improve productivity. Using the Cursor AI integrated development environment (IDE) alongside the Claude Sonnet large language model (LLM), this project took only about three hours.\nWhile Cursor AI allowed for quick development, several roadblocks required me to debug and hand-code several features, such as the collision mechanic and enemy formations.\nOverall, I am excited by the prospect of delivering applications quicker, while appreciating the need to understand each line of code when working with AI.\nInstructions: As a Space Ronan, you are paid a bounty for every invading alien pod you destroy. Use arrows to move and space to fire. Avoid collisions. The difficulty will increase over time."
-  },    
-  {
     name: "Korprulu Finance",
     github: "https://github.com/EricSorum/korprulu-finance",
     link: "https://ericsorum.github.io/korprulu-finance/",
-    description: "Web fundamentals are back.  HTML and CSS become more powerful each year, seeing less need for JavaScript and style frameworks.\nThis landing page is for a fictional finance company written in vanilla HTML, CSS, and JavaScript.\nThe challenge is to make a web page with only the three basic code files: index.html, style.css, and script.js to practice raw web fundamentals. No frameworks, external links, or packages are used. 100% hand-coded. No copypasta or AI."
+    description: "While AI coding and sprawling frameworks are all the rage, web fundamentals are making a comeback.  HTML and CSS become more powerful each year, seeing less need for JavaScript and style frameworks.\nI pride myself on having strong fundamentals, coding projects by hand without AI or frequent copy-and-pasting.  This landing page is for a fictional finance company written in vanilla HTML, CSS, and JavaScript.\nThe challenge is to make a web page with only the three basic code files: index.html, style.css, and script.js to practice raw web fundamentals. No frameworks, external links, or packages are used. 100% hand-coded the old fashioned way."
+  },
+  {
+    name: "Space Ronan",
+    github: "https://github.com/EricSorum/space-ronan",
+    link: "https://ericsorum.github.io/space-ronan",
+    description: "This simple top-scrolling shooter game shows the potential for AI to improve productivity. Using the Cursor AI integrated development environment (IDE) alongside the Claude Sonnet large language model (LLM), this project took only about three hours.\nCursor AI allowed for quick development, but several roadblocks required me to debug and hand-code several features, such as the collision mechanic and enemy formations.\nWhile the rest of my projects are hand-coded to benefit from the learning process, I am excited by the prospect of delivering applications quicker through LLMs.\nInstructions: As a Space Ronan, you are paid a bounty for every invading alien pod you destroy. Use arrows to move and space to fire. Avoid collisions. The difficulty will increase over time."
   },
   {
     name: "Recipe Avalanche",
